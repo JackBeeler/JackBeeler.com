@@ -1,6 +1,6 @@
 title: Jack Beeler
 logo: /assets/img/Profile.jpg
 description: Computer Science B.S.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
