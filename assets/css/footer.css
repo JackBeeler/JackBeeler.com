@@ -8214,10 +8214,12 @@ textarea.form-control {
   .ftco-section h2 {
     margin-bottom: 0; }
 
-/*
+
 footer {
-  padding: 7em 0; }
-*/
+  padding: 7em 0; 
+  margin: auto;
+}
+
 
 .footer-07 {
   background: #121212; }
