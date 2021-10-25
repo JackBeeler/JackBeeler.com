@@ -5,6 +5,7 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 paginate: 10
+per_page: 20
 paginate_path: "/page:num/"
 
 
@@ -12,3 +13,10 @@ paginate_path: "/page:num/"
 plugins:
   - jekyll-paginate
   - jekyll-gist
+
+
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
