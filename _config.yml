@@ -4,3 +4,5 @@ description: Computer Science B.S.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+paginate: 10
+paginate_path: "/page:num/"
