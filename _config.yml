@@ -6,3 +6,9 @@ google_analytics:
 theme: jekyll-theme-minimal
 paginate: 10
 paginate_path: "/page:num/"
+
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
