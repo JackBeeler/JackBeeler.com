@@ -8215,14 +8215,12 @@ textarea.form-control {
     margin-bottom: 0; }
 
 
-footer {
-  padding: 7em 0; 
-  margin: auto;
-}
 
 
 .footer-07 {
-  background: #121212; }
+  background: #121212;
+  bottom: 1px !important;
+}
   .footer-07 a {
     color: #a3de83; }
   .footer-07 p {
