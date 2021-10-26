@@ -8229,7 +8229,8 @@ textarea.form-control {
   .footer-07 p {
     color: rgba(255, 255, 255, 0.3); }
   .footer-07 .footer-heading {
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 5px
     color: #fff;
     font-weight: 700;
     margin-bottom: 30px; }
