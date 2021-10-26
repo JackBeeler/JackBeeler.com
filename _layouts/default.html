@@ -14,7 +14,7 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body onLoad= "runBike()">
+  <body>
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -76,6 +76,8 @@ var design = anime({
   direction: 'reverse',
 });
 	}
+window.onload = runBike;  
+		 
 	</script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
