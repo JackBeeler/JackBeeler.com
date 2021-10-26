@@ -8219,6 +8219,8 @@ textarea.form-control {
 
 .footer-07 {
   background: #121212;
+  border: 1px solid white;
+  border-radius: 10px;
 }
   .footer-07 a {
     color: #a3de83; }
