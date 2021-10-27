@@ -5,36 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-     <script id="rendered-js" >
-var design = anime({
-  targets: '#cycle #firstRoad, #XMLID_34_',
-  translateY: -7,
-  easing: 'easeInOutSine',
-  duration: 1000,
-  delay: function (el, i) {return i * 250;},
-  direction: 'alternate',
-  loop: true });
-
-
-
-var design = anime({
-  targets: '#cycle #tyre1,#tyre2',
-  rotate: 360,
-  easing: 'linear',
-  loop: true,
-  direction: 'reverse' });
-
-
-var design = anime({
-  targets: '#cycle #padel',
-  rotate: 360,
-  easing: 'linear',
-  loop: true,
-  duration: 3000,
-  direction: 'reverse' });
-//# sourceURL=pen.js
-    </script>
-    
     <style> body
 {
  background-color: #606468;
@@ -449,5 +419,34 @@ var design = anime({
 
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+	       <script id="rendered-js" >
+var design = anime({
+  targets: '#cycle #firstRoad, #XMLID_34_',
+  translateY: -7,
+  easing: 'easeInOutSine',
+  duration: 1000,
+  delay: function (el, i) {return i * 250;},
+  direction: 'alternate',
+  loop: true });
+
+
+
+var design = anime({
+  targets: '#cycle #tyre1,#tyre2',
+  rotate: 360,
+  easing: 'linear',
+  loop: true,
+  direction: 'reverse' });
+
+
+var design = anime({
+  targets: '#cycle #padel',
+  rotate: 360,
+  easing: 'linear',
+  loop: true,
+  duration: 3000,
+  direction: 'reverse' });
+//# sourceURL=pen.js
+    </script>
   </body>
 </html>
