@@ -1,7 +1,38 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js'></script>
+      <script id="rendered-js" >
+var design = anime({
+  targets: '#cycle #firstRoad, #XMLID_34_',
+  translateY: -7,
+  easing: 'easeInOutSine',
+  duration: 1000,
+  delay: function (el, i) {return i * 250;},
+  direction: 'alternate',
+  loop: true });
+
+
+
+var design = anime({
+  targets: '#cycle #tyre1,#tyre2',
+  rotate: 360,
+  easing: 'linear',
+  loop: true,
+  direction: 'reverse' });
+
+
+var design = anime({
+  targets: '#cycle #padel',
+  rotate: 360,
+  easing: 'linear',
+  loop: true,
+  duration: 3000,
+  direction: 'reverse' });
+//# sourceURL=pen.js
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -433,38 +464,7 @@ body
   </div>
   </div>
   </div>
-    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js'></script>
-      <script id="rendered-js" >
-var design = anime({
-  targets: '#cycle #firstRoad, #XMLID_34_',
-  translateY: -7,
-  easing: 'easeInOutSine',
-  duration: 1000,
-  delay: function (el, i) {return i * 250;},
-  direction: 'alternate',
-  loop: true });
-
-
-
-var design = anime({
-  targets: '#cycle #tyre1,#tyre2',
-  rotate: 360,
-  easing: 'linear',
-  loop: true,
-  direction: 'reverse' });
-
-
-var design = anime({
-  targets: '#cycle #padel',
-  rotate: 360,
-  easing: 'linear',
-  loop: true,
-  duration: 3000,
-  direction: 'reverse' });
-//# sourceURL=pen.js
-    </script>
+    
     </div>
 	
 	
