@@ -43,10 +43,41 @@
       </section>
      
         {% include footer.html %}
-    </div>
-	
-	
-<div class="container">
+	    <style>
+body
+{
+ background-color: #606468;
+}
+#tyre1, #tyre2
+{
+   transform-box: fill-box;
+    transform-origin: center;
+}
+
+ #padel
+{
+   transform-box: fill-box;
+    transform-origin: 91% 49%;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <div class="container">
   <div class="row">
     <div class="col-md-8 col-sm-8 mx-auto">
 <svg version="1.1" id="cycle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -402,8 +433,10 @@
   </div>
   </div>
   </div>
-  
- <script id="rendered-js" >
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js'></script>
+      <script id="rendered-js" >
 var design = anime({
   targets: '#cycle #firstRoad, #XMLID_34_',
   translateY: -7,
@@ -431,22 +464,11 @@ var design = anime({
   duration: 3000,
   direction: 'reverse' });
 //# sourceURL=pen.js
-    </script>	  
-	  <style> body
-{
- background-color: #606468;
-}
-#tyre1, #tyre2
-{
-   transform-box: fill-box;
-    transform-origin: center;
-}
+    </script>
+    </div>
+	
+	
 
- #padel
-{
-   transform-box: fill-box;
-    transform-origin: 91% 49%;
-}</style>  
 	  
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
