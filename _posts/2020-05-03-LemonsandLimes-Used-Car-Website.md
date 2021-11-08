@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LemonsandLimes Website"
+title:  "LemonsandLimes Used Car Website"
 ---
 # LemonsandLimes Website![enter image description here](https://raw.githubusercontent.com/JackBeeler/CSE4550-GroupProject/main/lemonsAndLimesAutoDealerLogo.png)
 
