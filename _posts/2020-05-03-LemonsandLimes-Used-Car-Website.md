@@ -15,6 +15,8 @@ Front-end Framework: Bootstrap, CSS, HTML, Js
 Database: MySQL
 PaaS: Heroku
 
+# Pages Included
+
 ### Homepage
 ![Inventory Page](https://i.ibb.co/nDsHNJQ/Lemonsand-Limes-Homepage.png)
 
