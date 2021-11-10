@@ -7,6 +7,8 @@ theme: jekyll-theme-minimal
 paginate: 10
 per_page: 20
 paginate_path: "/page:num/"
+author: Jack Beeler
+
 
 disqus_shortname:
 google_analytics:
