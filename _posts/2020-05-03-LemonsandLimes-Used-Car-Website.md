@@ -1,8 +1,3 @@
----
-layout: post
-title:  "LemonsandLimes Used Car Website"
----
-
 
 # LemonsandLimes Website![enter image description here](https://raw.githubusercontent.com/JackBeeler/CSE4550-GroupProject/main/lemonsAndLimesAutoDealerLogo.png)
 
@@ -27,10 +22,10 @@ Hosting/PaaS: Heroku
 ### Inventory Page
 ![Inventory Page](https://i.ibb.co/SXcs0PD/Capture.png)
 
-### About Us Page
-![About Us Page]()
+### Contact Us Page 
+![About Us Page](https://i.ibb.co/qyqDCK5/About-Us-page.png)
 
-### Contact Us Page
+### About Us Page
 ![Contact Us](https://i.ibb.co/tptkcB2/About-Us.jpg)
 
 ### Sign Up Page
