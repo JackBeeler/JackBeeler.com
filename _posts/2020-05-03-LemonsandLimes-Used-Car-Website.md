@@ -1,5 +1,5 @@
 
-# LemonsandLimes Website![enter image description here](https://raw.githubusercontent.com/JackBeeler/CSE4550-GroupProject/main/lemonsAndLimesAutoDealerLogo.png)
+# [Lemons&LimesLogo](https://raw.githubusercontent.com/JackBeeler/CSE4550-GroupProject/main/lemonsAndLimesAutoDealerLogo.png)
 
  [Lemons&Limes](https://lemonsandlimes.herokuapp.com/) is a mock used car dealer inventory website created during my software engineering class at CSUSB with a team of 7 members over a 10 week period. The team comprised of 5 software engineers, one assistant project manager, and myself the project manager.
 
