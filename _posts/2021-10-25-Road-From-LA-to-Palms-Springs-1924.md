@@ -18,4 +18,10 @@ During this time before the freeway system E. State street was the original US99
 
 ![1926 Route Into Redlands](https://ibb.co/jyfgvGH)
 
- Due to the limitations of an iframe only the links to the maps are showing within the story map, this may be better since it opens the maps in a separate window for better viewing.  To view a Georeferenced map that includes maps from the 1920's click [MapViewer Link to Georeferenced Map](https://jbeeler.maps.arcgis.com/home/webmap/viewer.html?webmap=dd4848d485f446eca7b9342d155a5ab4), it's neat.
+ Due to the limitations of an iframe only the links to the maps are showing within the story map, this may be better since it opens the maps in a separate window for better viewing.  
+
+To view a Georeferenced map that includes maps from the 1920's click [here](https://jbeeler.maps.arcgis.com/home/webmap/viewer.html?webmap=dd4848d485f446eca7b9342d155a5ab4), it's neat and is basically the whole project without the StoryMap.
+
+To view the whole StoryMap without it being embedded in an iframe click [here](https://storymaps.arcgis.com/stories/827ef4e6eccf4407a5f1a02727d5adf4)
+
+Some information is sourced from a context statement put together by the city of Palm Springs: [Linked here](https://www.palmspringsca.gov/home/showpublisheddocument/63940/636806566475830000)
