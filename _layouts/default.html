@@ -83,7 +83,71 @@
     </div>
   </body>
 
+<script>
+    var $window = $(window),
+        $body = $('body'),
+        $stars = $('<div/><div/><div/>').addClass('stars');
 
+    $body.prepend($stars);
+
+    // Parallax background scrolling
+    $window.scroll(function() {
+        var y = $window.scrollTop(),
+            starsOrigo = $window.width() / 2;
+
+        var rotate = 'rotate('+ Math.min(45 + y / 32, 60) +'deg)';
+        $stars.eq(0).css('transform', 'translateY('+ (y / 2.56) +'px) translateZ(0) ' + rotate);
+        $stars.eq(1).css('transform', 'translateY('+ (y / 2.14) +'px) translateZ(0) ' + rotate);
+        $stars.eq(2).css('transform', 'translateY('+ (y / 1.75) +'px) translateZ(0) ' + rotate);
+
+    }).triggerHandler('scroll');
+
+    // Generate random stars
+    $stars.each(function(i, e) {
+        var $e = $(e),
+            stars = '',
+            origo = $window.width() / 2,
+            starsPerContainer = Math.floor(origo / 100),
+            maxRadius = Math.sqrt(origo*origo + origo*origo);
+
+        $e.css('top', origo);
+
+        for (var quadrant = 0; quadrant <= 1; quadrant++) {
+            for (var j = 0, watchdog = 0; j < starsPerContainer && watchdog < 100; j++, watchdog++) {
+                var angle = Math.random() * Math.PI / 2 + // Random inside two 90 deg sectors, from 180-270 and 270-360 deg.
+                            Math.PI + // offset 180 deg
+                            quadrant * Math.PI / 2, // offset 90 deg second interation
+                    radius = maxRadius / 4  + Math.random() * maxRadius * 3 / 4,
+                    x = Math.cos(angle) * radius,
+                    y = Math.sin(angle) * radius,
+                    size = Math.floor(Math.random() * 2),
+                    blur = 1,
+                    color = '#fff';
+
+                // If out of bounds, try agin
+                if (y < -origo || x < -origo || x > origo) {
+                    j--;
+                    continue;
+                }
+
+                // Recalc coords to account for 45 deg. css transform rotation
+                angle -= Math.PI / 4;
+                x = Math.cos(angle) * radius;
+                y = Math.sin(angle) * radius;
+
+                if (stars) stars += ',';
+                stars += x +'px '+ y +'px '+ blur +'px '+ (size + 1) +'px '+ color +','+
+                    (x + size + 2) +'px '+ (y - size - 2) +'px '+ blur +'px 0 '+ color +','+
+                    (x + size + 2) +'px '+ (y + size + 2) +'px '+ blur +'px 0 '+ color +','+
+                    (x - size - 2) +'px '+ (y + size + 2) +'px '+ blur +'px 0 '+ color +','+
+                    (x - size - 2) +'px '+ (y - size - 2) +'px '+ blur +'px 0 '+ color;
+            }
+        }
+
+        $e.css('box-shadow', stars);
+    });
+	
+</script>
 	
 </html>
 
